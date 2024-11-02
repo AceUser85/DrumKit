@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>DrumKit</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="box">
+      <div id="drumkit">
+        <div class="key" onclick="hit(crash)">
+          crash
+          <audio id="crash" src="sounds/crash.wav"></audio>
+        </div>
+        <div class="key" onclick="hit(china)">
+          china
+          <audio id="china" src="sounds/china.wav" preload="auto"></audio>
+        </div>
+        <div class="key" onclick="hit(ride)">
+          ride
+          <audio id="ride" src="sounds/ride.wav" preload="auto"></audio>
+        </div>
+        <div class="key" onclick="hit(hi_tom)">
+          hi-tom
+          <audio id="hi_tom" src="sounds/hi_tom.wav" preload="auto"></audio>
+        </div>
+        <div class="key" onclick="hit(mid_tom)">
+          mid-tom
+          <audio id="mid_tom" src="sounds/mid_tom.wav" preload="auto"></audio>
+        </div>
+        <div class="key" onclick="hit(floor_tom)">
+          floor-tom
+          <audio id="floor_tom" src="sounds/floor_tom.wav" preload="auto"></audio>
+        </div>
+        <div class="key" onclick="hit(hi_hat)">
+          hi-hat
+          <audio id="hi_hat" src="sounds/hi_hat.wav" preload="auto"></audio>
+        </div>
+        <div class="key" onclick="hit(snare)">
+          snare
+          <audio id="snare" src="sounds/snare.wav" preload="auto"></audio>
+        </div>
+        <div class="key" onclick="hit(kick)">
+          kick
+          <audio id="kick" src="sounds/kick.wav" preload="auto"></audio>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
