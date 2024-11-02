@@ -1,0 +1,30 @@
+.box {
+  display: grid;
+  height: 95vh;
+  max-width: 100vmin;
+  margin: auto;
+  align-items: center;
+  justify-items: center;
+}
+#drumkit {
+  display: grid;
+  aspect-ratio: 1 / 1;
+  grid-gap: 2vmin;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90vmin;
+}
+
+.key {
+  border: 2px solid black;
+  border-radius: 1vmin;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  font-size: 4vmin;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.key:active {
+  background-color: #08f;
+  box-shadow: 0 0 1vmin 1vmin #08f;
+}
